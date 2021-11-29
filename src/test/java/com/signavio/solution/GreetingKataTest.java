@@ -40,4 +40,11 @@ public class GreetingKataTest {
         Assertions.assertEquals("Hello, Bob, Jane, Mark and Lisa.", GreetingKata.greet(names));
     }
 
+    @Test
+    public void greet_mixedMultiplesNames_returnHelloToAllSeparately(){
+
+        String[] names = {"Bob", "JANE", "Mark", "LISA", "Natalie", "OTTO"};
+        Assertions.assertEquals("Hello, Bob, Mark and Natalie. AND HELLO JANE, LISA AND OTTO!", GreetingKata.greet(names));
+    }
+
 }
