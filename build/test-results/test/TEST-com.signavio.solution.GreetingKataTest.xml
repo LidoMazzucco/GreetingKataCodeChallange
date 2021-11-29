@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.signavio.solution.GreetingKataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-29T09:13:27" hostname="W-CDP3VT2" time="0.022">
+<testsuite name="com.signavio.solution.GreetingKataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-29T12:56:50" hostname="W-CDP3VT2" time="0.018">
   <properties/>
-  <testcase name="greet_multiplesNames_returnHelloToAll()" classname="com.signavio.solution.GreetingKataTest" time="0.022"/>
+  <testcase name="greet_mixedMultiplesNames_returnHelloToAllSeparately()" classname="com.signavio.solution.GreetingKataTest" time="0.018"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
