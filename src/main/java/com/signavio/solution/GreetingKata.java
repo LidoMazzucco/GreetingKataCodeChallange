@@ -9,6 +9,11 @@ public class GreetingKata {
 
     public static String greet(String name) {
 
+        StringBuilder result = new StringBuilder();
+
+        if (name == null || name.equals("")) return "Hello, my friend.";
+        if (name.toUpperCase().equals(name)) return "HELLO " + name + "!";
+
         return "Hello, " + name + ".";
     }
 
