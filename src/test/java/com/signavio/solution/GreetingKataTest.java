@@ -12,4 +12,18 @@ public class GreetingKataTest {
         Assertions.assertEquals("Hello, Bob.", GreetingKata.greet(name));
     }
 
+    @Test
+    public void greet_null_returnHelloMyFriend(){
+
+        String name = null;
+        Assertions.assertEquals("Hello, my friend.", GreetingKata.greet(name));
+    }
+
+    @Test
+    public void greet_allUpperCase_returnHELLO(){
+
+        String name = "BOB";
+        Assertions.assertEquals("HELLO BOB!", GreetingKata.greet(name));
+    }
+
 }
