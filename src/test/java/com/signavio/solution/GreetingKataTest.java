@@ -33,4 +33,11 @@ public class GreetingKataTest {
         Assertions.assertEquals("Hello, Bob and Jane.", GreetingKata.greet(names));
     }
 
+    @Test
+    public void greet_multiplesNames_returnHelloToAll(){
+
+        String[] names = {"Bob", "Jane", "Mark", "Lisa"};
+        Assertions.assertEquals("Hello, Bob, Jane, Mark and Lisa.", GreetingKata.greet(names));
+    }
+
 }
