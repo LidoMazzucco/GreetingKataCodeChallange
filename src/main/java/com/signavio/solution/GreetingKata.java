@@ -18,4 +18,8 @@ public class GreetingKata {
     }
 
 
+    public static String greet(String[] names) {
+
+        return "Hello, " + names[0] + " and " + names[1] + ".";
+    }
 }

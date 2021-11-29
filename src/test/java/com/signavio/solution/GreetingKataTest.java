@@ -26,4 +26,11 @@ public class GreetingKataTest {
         Assertions.assertEquals("HELLO BOB!", GreetingKata.greet(name));
     }
 
+    @Test
+    public void greet_twoNames_returnHelloToBoth(){
+
+        String[] names = {"Bob", "Jane"};
+        Assertions.assertEquals("Hello, Bob and Jane.", GreetingKata.greet(names));
+    }
+
 }
